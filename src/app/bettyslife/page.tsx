@@ -1,15 +1,10 @@
-'use client'
 
 import Image from 'next/image';
-import Navbar from '../../../components/Navbar';
 import '../globals.css'
 
 export default function Home() {
     return (
       <div className="bg-white">
-        <header className="sticky">
-          <Navbar />
-        </header>
           <div className="pt-40">
             <p className="text-center text-green-700 text-2xl">
               <span className="block">Life at Betty's</span>
