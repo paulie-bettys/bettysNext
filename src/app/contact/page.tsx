@@ -2,7 +2,7 @@
 import Map from '../../../components/Map'
 import '../globals.css'
 
-export default function Home() {
+export default function Contact() {
     return (
       <div className="bg-white">
                 <div className="pt-40">

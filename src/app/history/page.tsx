@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import '../globals.css'
 
-export default function Home() {
+export default function History() {
     return (
       <div className="bg-white">
           <div className="pt-40">

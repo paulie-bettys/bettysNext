@@ -10,6 +10,7 @@ const Navbar = () => {
     const handleNav = () => {
         setMenuOpen(!menuOpen)
     }
+
     return (
         <nav className="fixed w-full h-30 shadow-xl bg-white">
             <div className="flex justify-between items-center h-full w-full px-16">
@@ -26,16 +27,22 @@ const Navbar = () => {
                 <div className="hidden sm:flex">
                     <ul className="hidden sm:flex">
                         <Link href="/whybettys">
-                            <li className="ml-10 hover:border-b text-xl">Why Betty's</li>
+                            <li className="ml-10 hover:border-b text-xl">Why Betty&apos;s</li>
                         </Link>
                         <Link href="/history">
                             <li className="ml-10 hover:border-b text-xl">Our History</li>
                         </Link>
                         <Link href="/bettyslife">
-                            <li className="ml-10 hover:border-b text-xl">Life at Betty's</li>
+                            <li className="ml-10 hover:border-b text-xl">Life at Betty&apos;s</li>
                         </Link>
                         <Link href="/contact">
                             <li className="ml-10 hover:border-b text-xl">Contact Us</li>
+                        </Link>
+                        <Link 
+                            href="https://prodadmin.myxplor.com/enrollment/index/SUpoSHAzQkxrUXJWb0h1bFFGd0F4Zz09"
+                            className="ml-10 hover:border-b text-xl"
+                        >
+                            Join the Waitlist
                         </Link>
                     </ul>
                 </div>
@@ -76,7 +83,7 @@ const Navbar = () => {
                                 onClick={() => setMenuOpen(false)} 
                                 className="py-4 cursor-pointer"
                             >
-                            Life at Betty's
+                            Life at Betty&apos;s
                             </li>
                         </Link>
                         <Link href="/contact">
@@ -92,8 +99,14 @@ const Navbar = () => {
                                 onClick={() => setMenuOpen(false)} 
                                 className="py-4 cursor-pointer"
                             >
-                            Why Betty's
+                            Why Betty&apos;s
                             </li>
+                        </Link>
+                        <Link 
+                            href="https://prodadmin.myxplor.com/enrollment/index/SUpoSHAzQkxrUXJWb0h1bFFGd0F4Zz09"
+                            className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+                        >
+                            Join the Waitlist
                         </Link>
                     </ul>
                 </div>
